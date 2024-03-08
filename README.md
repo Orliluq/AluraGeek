@@ -3,11 +3,11 @@
 
 - Crea un e-commerce usando HTML, CSS y Javascript. 
 - [Figma AluraGeek](https://www.figma.com/file/nGB8Mu715ZM12SDbGMpLsJ/AluraGeek-(Copy-Orli)?type=design&node-id=0-1&mode=design&t=4hxjNDwRxWtB6pXF-0)
-
+  
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,javascript,figma,![image](https://github.com/Orliluq/AluraGeek/assets/122529721/7d217233-5ff4-4813-a2c1-b149ca30f241)
-&perline=9" />
+    <img src="https://skillicons.dev/icons?i=html,css,javascript,figma&perline=9" />
+     <img src="https://github.com/Orliluq/AluraGeek/assets/122529721/7d217233-5ff4-4813-a2c1-b149ca30f241&perline=9" />
   </a>
 </p>
 
