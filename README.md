@@ -6,7 +6,8 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,javascript,figma,trello&perline=9" />
+    <img src="https://skillicons.dev/icons?i=html,css,javascript,figma,![image](https://github.com/Orliluq/AluraGeek/assets/122529721/7d217233-5ff4-4813-a2c1-b149ca30f241)
+&perline=9" />
   </a>
 </p>
 
