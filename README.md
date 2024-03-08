@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,javascript,figma&perline=9" />
-     <img src="https://github.com/Orliluq/AluraGeek/assets/122529721/7d217233-5ff4-4813-a2c1-b149ca30f241&perline=9" />
+    <img src="https://github.com/Orliluq/AluraGeek/assets/122529721/33ccfaea-149f-4a22-ac9d-da4135b4580f" class="object-contain w-32 h-32" />
   </a>
 </p>
 
