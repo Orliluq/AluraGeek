@@ -1,11 +1,14 @@
-# AluraGeek
-Alura LATAM Challenge Challenge Front-End - Alura Geek  Crea un e-commerce usando HTML, CSS y Javascript.
+# Alura LATAM Challenge 🚀
+## Challenge Front-End - Alura Geek 👩‍💻
 
-##  Tecnologias utilizadas:
-- HTML
-- CSS
-- Javascript
+- Crea un e-commerce usando HTML, CSS y Javascript. 
 - [Figma AluraGeek](https://www.figma.com/file/nGB8Mu715ZM12SDbGMpLsJ/AluraGeek-(Copy-Orli)?type=design&node-id=0-1&mode=design&t=4hxjNDwRxWtB6pXF-0)
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=javascript,figma,html,css&perline=9" />
+  </a>
+</p>
 
 ### Tudo:
 ![image](https://github.com/Orliluq/AluraGeek/assets/122529721/5f2374b3-7423-4a80-9a86-7eb1d6063a99)
