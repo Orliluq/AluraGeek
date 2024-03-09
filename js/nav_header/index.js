@@ -72,8 +72,17 @@ export function footer(paths) {
     </form>
   </section>
   <div class="footer__desarrollador">
-  <p>Desarrollado por Orlibet Dun</p>
-  </div>
+    <section class="text-icon">
+      <a href="https://www.linkedin.com/in/orlibetdungonzalez/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in" style="--color-icon: #de500e; --font: 1.7rem"></i>
+      </a>
+      <a href="https://github.com/Orliluq/" target="_blank" rel="noopener">
+        <i class="bx bxl-github" style="--color-icon: #de500e; --font: 1.7rem"></i>
+      </a>
+    </section>
+    <div class="flex">
+      <p>&copy; Desarrollado por Orlibet Dun, Grupo 6. ONE Oracle - Alura Latam 2024</p>
+      </div>
   `;
 
   footer.innerHTML = html;
