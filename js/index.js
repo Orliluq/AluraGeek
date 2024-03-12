@@ -2,7 +2,7 @@ import { lista } from './geekAPI/index.js';
 import { slider } from './slider/index.js';
 import { nav, footer } from './nav_header/index.js';
 
-export function updateList(){
+export function updateList() {
   if(JSON.parse(localStorage.getItem('lista'))){
     const productNew = JSON.parse(localStorage.getItem('lista'))
     
@@ -85,6 +85,7 @@ export function containerCards(paths) {
   slider();
 }
 
+
 window.onload = function () {
 
   updateList();
@@ -102,6 +103,7 @@ window.onload = function () {
     url: "./assets/pages/product/index.html",
     login: "assets/pages/login/index.html",
     inputShow: true,
+    admin: "./assets/pages/admin/index.html",
   }
 
   nav(paths);

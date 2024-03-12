@@ -19,6 +19,38 @@
     <link rel="stylesheet" href="../../css/components/footer.css">
     <link rel="stylesheet" href="../../css/normalize.css">
     <link rel="stylesheet" href="../../css/reset.css">
+<script>
+    function validateForm(event) {
+        event.preventDefault(); // Evitar el envío de formulario por defecto
+        var email = document.querySelector('input[type="email"]').value;
+        var password = document.querySelector('input[type="password"]').value;
+
+        // Validar formato de correo electrónico
+        var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if (!emailRegex.test(email) || email !== "admin@gmail.com") {
+            alert("Ingrese una dirección de correo electrónico de administrador válida");
+            return false;
+        }
+
+        // Validar contraseña (contraseña de administrador específica)
+        if (password !== "12345") {
+            alert("Contraseña incorrecta. Por favor ingrese la contraseña de administrador correcta.");
+            return false;
+        }
+
+
+        // Simular verificación de autenticación 
+        var isAuthenticated = true; 
+
+        if (isAuthenticated) {
+            // Redirigir al menú de administración
+            window.location.href = "admin_menu.html";
+        } else {
+            // Mostrar mensaje de error
+            alert("La autenticación falló. Por favor revisa tu correo electrónico y contraseña.");
+        }
+    }
+</script>
 </head>
 
 <body>
@@ -27,13 +59,12 @@
     </nav>
 
     <main class="main__login">
-        <form action="" class="login">
+        <form action="" class="login" onsubmit="validateForm(event)">
             <h2>Iniciar sesión</h2>
-            <input type="text" placeholder="Ingrese su correo electrónico" required />
+            <input type="email" placeholder="Ingrese su correo electrónico" required />
             <input type="password" placeholder="Ingrese su contraseña" name="password" autocomplete="off" required />
             <input type="submit" class="button__submit" value="Entrar" />
         </form>
-    </main>
 
     <footer data-footer>
         <!-- JavaScript -->

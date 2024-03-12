@@ -66,9 +66,9 @@ export function footer(paths) {
     </div>
     <form class="footer__forms">
       <p>Hable con nosotros</p>
-      <input type="text" placeholder="Nombre" required/>
-      <textarea placeholder="Escribe tu mensaje" required></textarea>
-      <input type="submit" value="Enviar mensaje" class="button__submit" data-submit />
+      <input type="text" placeholder="Nombre" required maxlength="40" />
+      <span class="error-nombre"></span>  <textarea placeholder="Escribe tu mensaje" required maxlength="120"></textarea>
+      <span class="error-mensaje"></span>  <input type="submit" value="Enviar mensaje" class="button__submit" data-submit />
     </form>
   </section>
   <div class="footer__desarrollador">
@@ -86,4 +86,8 @@ export function footer(paths) {
   `;
 
   footer.innerHTML = html;
+
+
+
+
 }
